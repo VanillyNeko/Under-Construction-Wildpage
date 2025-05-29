@@ -1,7 +1,7 @@
 services:
-  pastel-site:
-    build: .
+  under-construction:
+    image: ghcr.io/vanillyneko/under-construction-wildpage:latest
+    container_name: under-construction-page
+    restart: unless-stopped
     ports:
       - "65534:80"
-    container_name: pastel-under-construction
-    restart: unless-stopped
