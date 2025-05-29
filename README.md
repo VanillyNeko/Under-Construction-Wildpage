@@ -1,7 +1,7 @@
 # 📦 Under Construction Wildpage
 
 A self-contained Vue + Docker container that displays a themed **"Under Construction"** placeholder page.  
-Automatically switches between **Anime** and **Warden Hosting** themes based on the domain name.
+Text on the screen updates to the current domain pointed at it.
 
 > 🐳 Docker image:  
 > `ghcr.io/vanillyneko/under-construction-wildpage:latest`
@@ -9,7 +9,6 @@ Automatically switches between **Anime** and **Warden Hosting** themes based on 
 ## 🚀 Features
 
 - Pastel anime theme for general subdomains
-- Warden Hosting theme for domains that include `warden`
 - Dynamic domain-based theming at runtime
 - Lightweight, production-ready container
 - Published via GitHub Container Registry (GHCR)
@@ -31,9 +30,6 @@ docker run -d -p 8080:80 ghcr.io/vanillyneko/under-construction-wildpage:latest
 Then visit:
 
 - `http://localhost:8080/` – pastel anime placeholder
-- `http://warden.localhost:8080/` – warden hosting placeholder
-
-Use `warden.yourdomain.com` to trigger the Warden Hosting theme.
 
 ## 🧪 Local Development
 
