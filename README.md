@@ -1,4 +1,4 @@
-# 📦 Under Construction Wildpage
+# 📦 Under Construction Sailor Moon Themed Wildpage
 
 A self-contained Vue + Docker container that displays a themed **"Under Construction"** placeholder page.  
 Text on the screen updates to the current domain pointed at it.
@@ -8,7 +8,7 @@ Text on the screen updates to the current domain pointed at it.
 
 ## 🚀 Features
 
-- Pastel anime theme for general subdomains
+- Pastel anime theme for general subdomains/domains
 - Dynamic domain-based theming at runtime
 - Lightweight, production-ready container
 - Published via GitHub Container Registry (GHCR)
