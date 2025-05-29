@@ -19,7 +19,7 @@ onMounted(() => {
 body {
   margin: 0;
   font-family: 'Comic Neue', 'Segoe UI', sans-serif;
-  background: url('https://vnil.me/KfeHkjEW4950.jpg') no-repeat center center fixed;
+  background: url('https://vnil.me/QdxrKwAjWykR.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #5e5a80;
   display: flex;
