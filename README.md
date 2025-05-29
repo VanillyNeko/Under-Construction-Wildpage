@@ -78,7 +78,7 @@ When this site is shared (on Discord, iMessage, etc), a generic "Under Construct
 ```
 .
 ├── Dockerfile
-├── docker-compose.yml
+├── compose.yml
 ├── index.html
 ├── src/
 │   ├── main.js
