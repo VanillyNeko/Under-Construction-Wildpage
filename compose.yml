@@ -1,0 +1,7 @@
+services:
+  pastel-site:
+    build: .
+    ports:
+      - "65534:80"
+    container_name: pastel-under-construction
+    restart: unless-stopped
