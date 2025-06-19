@@ -16,19 +16,7 @@ onMounted(() => {
 </script>
 
 <style>
-body {
-  margin: 0;
-  font-family: 'Comic Neue', 'Segoe UI', sans-serif;
-  background: url('https://vnil.me/QdxrKwAjWykR.jpg') no-repeat center center fixed;
-  background-size: cover;
-  color: #5e5a80;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  backdrop-filter: blur(4px);
-}
-
+/* Removed body style from here */
 .wrapper {
   text-align: center;
   padding: 2rem;

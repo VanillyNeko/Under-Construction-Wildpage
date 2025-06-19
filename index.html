@@ -5,13 +5,38 @@
     <title>🌐 Site Under Construction</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Generic Open Graph / Discord Embed -->
     <meta property="og:title" content="🚧 This site is under construction!" />
     <meta property="og:description" content="We're working on something cool. Come back soon!" />
     <meta property="og:image" content="https://vnil.me/KfeHkjEW4950.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
 
-    <!-- Optionally preload font or background -->
+    <style>
+      body {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+      }
+
+      body.anime-theme {
+        font-family: 'Comic Neue', 'Segoe UI', sans-serif;
+        background-image: url('https://vnil.me/QdxrKwAjWykR.jpg');
+        color: #5e5a80;
+        backdrop-filter: blur(4px);
+      }
+
+      body.warden-theme {
+        font-family: 'Share Tech Mono', monospace;
+        background-image: url('https://vnil.me/zDdlz9vYsXoA.png');
+        color: #eeeeee;
+        backdrop-filter: blur(3px) brightness(0.8);
+      }
+    </style>
 </head>
 <body>
 <div id="app"></div>

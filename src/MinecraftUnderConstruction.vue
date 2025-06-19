@@ -19,19 +19,7 @@ onMounted(() => {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
-body {
-  margin: 0;
-  font-family: 'Share Tech Mono', monospace;
-  background: url('https://vnil.me/zDdlz9vYsXoA.png') no-repeat center center fixed;
-  background-size: cover;
-  color: #eeeeee;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  backdrop-filter: blur(3px) brightness(0.8);
-}
-
+/* Removed body style from here */
 .wrapper {
   text-align: center;
   padding: 2rem;
