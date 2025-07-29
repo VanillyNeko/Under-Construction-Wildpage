@@ -3,16 +3,6 @@
     <h1>🌙 Under Construction 🌸</h1>
     <p>The page <code>{{ currentUrl }}</code> is not available yet.</p>
     <p>Check back later for magical updates!</p>
-    <p>Check Out Our <a href="https://www.vanillyneko.com">Sister Site</a> For Information For The Time Being!</p>
-    <ul>
-      <li>
-        Vanilly's E-Mail: <a href="mailto:nilly@vanillyneko.com">nilly@vanillyneko.com</a>                                                                                                
-      </li>
-      <li>
-        Admins E-Mail: <a href="mailto:admin@vanillyneko.com">admin@vanillyneko.com</a>
-      </li>
-    </ul>
-  </div>
 </template>
 
 <script setup>
