@@ -3,6 +3,7 @@
     <h1>🌙 Under Construction 🌸</h1>
     <p>The page <code>{{ currentUrl }}</code> is not available yet.</p>
     <p>Check back later for magical updates!</p>
+  </div>
 </template>
 
 <script setup>
